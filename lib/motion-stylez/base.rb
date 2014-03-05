@@ -7,13 +7,15 @@ module MotionStylez
       @shared
     end
 
-    def style(style_name)
+    def style(style_names)
       begin
         puts "\[STYLEZ ERROR] no stylesheet selected" unless self.stylesheet
 
         view = self.selector
         view = view.new if view.class == Class
-        self.stylesheet.public_send(style_name, view)
+        [style_names].flatten.each do |style|
+          self.stylesheet.public_send(style, view)
+        end
         yield view if block_given?
         view
       rescue NoMethodError => e

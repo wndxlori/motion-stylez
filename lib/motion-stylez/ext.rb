@@ -8,3 +8,13 @@ class Object
     end
   end
 end
+
+class UIView
+  def self.style(style, &block)
+    z(self, style, &block)
+  end
+
+  def style(style, &block)
+    z(self, style, &block)
+  end
+end
