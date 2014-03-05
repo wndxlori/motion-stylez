@@ -1,6 +1,10 @@
 class Object
-  def z(selector = nil)
+  def z(selector = nil, style = nil, &block)
     MotionStylez::Base.shared.selector = selector
-    MotionStylez::Base.shared
+    if selector && style
+      MotionStylez::Base.shared.style(style, &block)
+    else
+      MotionStylez::Base.shared
+    end
   end
 end
