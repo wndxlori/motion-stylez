@@ -1,6 +1,6 @@
 # Motion::Stylez
 
-A super basic RubyMotion stylesheet library based off Todd Werth's [RMQ library](https://github.com/infinitered/cdq) that lets you centralize your view styles.
+A super basic RubyMotion stylesheet library based off Todd Werth's [RMQ library](https://github.com/infinitered/rmq) that lets you centralize your view styles.
 
 ## Installation
 

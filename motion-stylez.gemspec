@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = MotionStylez::VERSION
   spec.authors       = ["Jack Dean Watson-Hamblin"]
   spec.email         = ["info@fluffyjack.com"]
-  spec.summary       = %q{RubyMotion stylesheet library based off RMQ (https://github.com/infinitered/cdq)}
-  spec.description   = %q{A super basic RubyMotion stylesheet library based off Todd Werth's RMQ library (https://github.com/infinitered/cdq) that lets you centralize your view styles}
+  spec.summary       = %q{RubyMotion stylesheet library based off RMQ (https://github.com/infinitered/rmq)}
+  spec.description   = %q{A super basic RubyMotion stylesheet library based off Todd Werth's RMQ library (https://github.com/infinitered/rmq) that lets you centralize your view styles}
   spec.homepage      = "https://github.com/FluffyJack/motion-stylez"
   spec.license       = "MIT"
 
